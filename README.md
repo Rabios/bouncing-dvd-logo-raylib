@@ -13,8 +13,8 @@ If you don't know about building raylib, See "Development Platforms" in [raylib 
 Then...
 
 ```
-make					        # Make, And also set platform (Example: PLATFORM=PLATFORM_DESKTOP)
-./bouncing_dvd_logo		# Or just bouncing_dvd_logo on Windows instead...
+make  # Make, And also set platform (Example: PLATFORM=PLATFORM_DESKTOP)
+./bouncing_dvd_logo # Or just bouncing_dvd_logo on Windows instead...
 ```
 
 ### License
