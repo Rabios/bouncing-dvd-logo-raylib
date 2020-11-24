@@ -6,7 +6,7 @@ Port of "Bouncing DVD Logo" from DragonRuby GTK, Based on [this](https://gist.gi
 
 ### Build and Run
 
-First, You should have [raylib](https://github.com/raysan5/raylib) built for a platform with `make`, Then edit makefile to set path of gcc and raylib!
+First, You should have [raylib](https://github.com/raysan5/raylib) built for a platform with `make`, Then edit makefile to set path of gcc and raylib (And to suit your preferences...)
 
 If you don't know about building raylib, See "Development Platforms" in [raylib wiki](https://github.com/raysan5/raylib/wiki)
 
