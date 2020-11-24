@@ -1,6 +1,6 @@
 // Written by Rabia Alhaffar in 23/November/2020
 // Bouncing DVD Logo port...
-// Based of this gist: https://gist.github.com/amirrajan/83c368bfc4f153abdfba995458d8943a
+// Based on this gist: https://gist.github.com/amirrajan/83c368bfc4f153abdfba995458d8943a
 #include "raylib.h"
 
 //--------------------------------------------------------------------------------------
