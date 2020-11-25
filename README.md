@@ -1,8 +1,53 @@
 # bouncing-dvd-logo-raylib
 
+A DVD Screensaver challenge from Amir Rajan.
 Port of "Bouncing DVD Logo" from DragonRuby GTK, Based on [this](https://gist.github.com/amirrajan/83c368bfc4f153abdfba995458d8943a) gist, Using [raylib](https://github.com/raysan5/raylib) with C99!
 
 <img src="bouncing_dvd_logo.png"><br><br>
+
+### Q&A
+
+#### How many proud lines of code did you have to write?
+
+I've written over 120 lines of code, And i'm very proud of this!
+
+#### How many different game engine concepts (eg: physics bodies, matrices, events, transforms, camera) did you have to be knowledgeable of before you could build your implementation?
+
+The only concept needed was collision detection, The logic was simple and easy btw! :)
+
+#### Did you have to use classes, inheritance, structs or any other overly complex data structures? Why does the engine you are using require these complexities for such a trivial game?
+
+Nothing was complex, But for better management i used `Rectangle` struct, It's very simple and easy...
+
+Colors was done and changed from array, So yes nothing was hard to do...
+
+#### How many times did you have to start and stop execution? What was the feedback loop like when you were developing?
+
+I tested stuff each execution, I
+
+#### Were you required to use a dedicated IDE? How long did it take you to get familiar with the IDE when you first started off?
+
+No, Notepad++ and then `make` :)
+
+#### Is the source code for the game easily sharable? If you have to share more than just one file and some sprites, what else did you have to provide? What do these ancillary files represent?
+
+Yes, I also did it without sprites so everything will be in just one executable...
+
+#### How difficult was it to set up a 720p canvas?
+
+raylib is designed to be very freaking simple, So i just use `InitWindow(width, height, title)` to initialize window with dimensions with no need for a canvas...
+
+#### How difficult was it to export to "all the platforms"?
+
+Working for desktop platforms is very easy through, But compilation for non-desktop like Web and Android would be somehow difficult. (cause Makefiles maybe not updated?)
+
+#### What was the output binary size?
+
+It gave me one executable with size of 0.5 MB as i used C99 to write this using raylib, Due to being small i can pack anything in freaking small size...
+
+#### Be sensitive to what pains the engine of your choice puts you through to build the simplest of 2D game and ask yourself if it's acceptable. What could the engine have done better?
+
+I didn't have pains while doing stuff with raylib (Due to being very simple...)
 
 ### Build and Run
 
