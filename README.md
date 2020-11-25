@@ -1,9 +1,27 @@
 # bouncing-dvd-logo-raylib
 
-A DVD Screensaver challenge from Amir Rajan.
-Port of "Bouncing DVD Logo" from DragonRuby GTK, Based on [this](https://gist.github.com/amirrajan/83c368bfc4f153abdfba995458d8943a) gist, Using [raylib](https://github.com/raysan5/raylib) with C99!
+"Bouncing DVD Logo" Screensaver challenge from Amir Rajan.
+
+This is port of "Bouncing DVD Logo" from DragonRuby GTK, Based on [this](https://gist.github.com/amirrajan/83c368bfc4f153abdfba995458d8943a) gist, Using [raylib](https://github.com/raysan5/raylib) with C99!
 
 <img src="bouncing_dvd_logo.png"><br><br>
+
+### Build and Run
+
+First, You should have [raylib](https://github.com/raysan5/raylib) built for a platform with `make`, Then edit makefile to set path of gcc and raylib (And to suit your preferences...)
+
+If you don't know about building raylib, See "Development Platforms" in [raylib wiki](https://github.com/raysan5/raylib/wiki)
+
+Then...
+
+```
+make                # Make, And also set platform (Example: PLATFORM=PLATFORM_DESKTOP)
+./bouncing_dvd_logo # Or just bouncing_dvd_logo on Windows instead...
+```
+
+### License
+
+See [`LICENSE.txt`](https://github.com/Rabios/bouncing-dvd-logo-raylib/blob/master/LICENSE.txt) for repo license and [`LICENSE.txt`](https://github.com/Rabios/bouncing-dvd-logo-raylib/blob/master/LICENSE.txt) for third party licenses...
 
 ### Q&A
 
@@ -49,19 +67,13 @@ It gave me one executable with size of 0.5 MB as i used C99 to write this using 
 
 I didn't have pains while doing stuff with raylib (Due to being very simple...)
 
-### Build and Run
+### Challenge of "Bouncing DVD Logo with Pausing" content
 
-First, You should have [raylib](https://github.com/raysan5/raylib) built for a platform with `make`, Then edit makefile to set path of gcc and raylib (And to suit your preferences...)
-
-If you don't know about building raylib, See "Development Platforms" in [raylib wiki](https://github.com/raysan5/raylib/wiki)
-
-Then...
-
-```
-make                # Make, And also set platform (Example: PLATFORM=PLATFORM_DESKTOP)
-./bouncing_dvd_logo # Or just bouncing_dvd_logo on Windows instead...
-```
-
-### License
-
-See [`LICENSE.txt`](https://github.com/Rabios/bouncing-dvd-logo-raylib/blob/master/LICENSE.txt) for repo license and [`LICENSE.txt`](https://github.com/Rabios/bouncing-dvd-logo-raylib/blob/master/LICENSE.txt) for third party licenses...
+1. When the game starts up, show a sprite - that’s 50x50 pixels in size - at the center of the screen that has a resolution of 1280x720.
+2. The box should start moving in a random x and y direction at a rate of 1 pixel per simulation tick (the x and y directions should be either 1.0, -1.0 chosen randomly at start). The speed of your box simulation should be 60 hertz (60 "ticks" per second).
+3. The box should bounce around within the bounds of the 1280x720 canvas.
+4. When the box hits the edge, it should change to a different random color (the box should not be the same color after hitting an edge).
+5. If you press the space key, the box should stop moving. When you press the space key again, the box should resume moving in the direction it was going.
+6. Your game should support PC, Mac, Linux, Web at least (iOS, and Android for extra credit).
+7. The exe/binary icon for the game should be a square with the color of your choosing.
+8. Release your game to Itch.io (PC, Mac, Linux, Web); and for extra credit Test Flight (iOS); and Google Play Beta Testing (Android). If you can't deploy to all platforms, make note of that in the readme.
