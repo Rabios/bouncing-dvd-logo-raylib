@@ -41,7 +41,7 @@ Colors was done and changed from array, So yes nothing was hard to do...
 
 #### How many times did you have to start and stop execution? What was the feedback loop like when you were developing?
 
-I tested stuff each execution, I
+Not a lot, Depending on times i compile after doing edits if needed, And it was fine due to being C a compiled language...
 
 #### Were you required to use a dedicated IDE? How long did it take you to get familiar with the IDE when you first started off?
 
